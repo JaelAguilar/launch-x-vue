@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory } from "vue-router"
 import ClienteView from "../views/ClienteView.vue"
 import PasteleroView from "../views/PasteleroView.vue"
+import ContactoView from "../views/ContactoView.vue"
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: "/user",
     name: "user",
     component: PasteleroView,
+  },
+  {
+    path: "/contact",
+    name: "contact",
+    component: ContactoView,
   },
 ]
 
